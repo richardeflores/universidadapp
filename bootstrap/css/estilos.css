@@ -4,9 +4,18 @@ width: 150px;
 .music-body {
 width: 101%;
 height: 100%;
-background-color: rgba(8, 45, 94, 0.95);
+}
+.topbar {
+background-color: rgba(247, 67, 0, 0.95);
 }
 .img-social {
   width: 40px;
   height: 40px;
+}
+.nav {
+  padding-top: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: black;
+  background: #999999;
 }
