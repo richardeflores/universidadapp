@@ -19,3 +19,6 @@ background-color: rgba(247, 67, 0, 0.95);
   color: black;
   background: #999999;
 }
+.blog-img {
+  width: 350px;
+}
