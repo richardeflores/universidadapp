@@ -20,5 +20,8 @@ background-color: rgba(247, 67, 0, 0.95);
   background: #999999;
 }
 .blog-img {
-  width: 350px;
+  width: 300px;
+}
+.entrada-blog{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
