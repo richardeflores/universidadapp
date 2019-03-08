@@ -2,7 +2,7 @@
 width: 150px;
 }
 .music-body {
-width: 101%;
+width: 100%;
 height: 100%;
 }
 .topbar {
@@ -34,4 +34,7 @@ background-color: rgba(247, 67, 0, 0.95);
 }
 .icon-tab{
   text-align: center;
+}
+.columna-izq {
+  padding-left: 50px;
 }
