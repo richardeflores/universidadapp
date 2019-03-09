@@ -6,7 +6,7 @@
     <meta name='mobile-web-app-capable' content='yes'>
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='css/estilos.css'>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href='css/font-awesome.min.css'>
     <script src='js/bootstrap.min.js'></script>
     <title>Vida Musical</title>
   </head>
@@ -14,12 +14,12 @@
     <header>
       <div class="row topbar align-items-center">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2 text-center">
-          <img class="img-rounded logo-img" alt="Logo RF" src='img/rf.svg'/>
+          <img class="img-rounded logo-img" alt="Logo RF" src='img/rfm.svg'/>
         </div>
         <div class='col-xs-12 col-sm-12 col-md-6 col-lg-2 offset-lg-8 text-center redes-sociales'>
-          <img class='img-rounded img-social' src='img/fb.png'/>
-          <img class='img-rounded img-social' src='img/ig.png'/>
-          <img class='img-rounded img-social' src='img/tt.png'/>
+          <a href="#"><img class='img-rounded img-social' src='img/fb.png'/></a>
+          <a href="#"><img class='img-rounded img-social' src='img/ig.png'/></a>
+          <a href="#"><img class='img-rounded img-social' src='img/tt.png'/></a>
         </div>
       </div>
     </header>
@@ -52,7 +52,7 @@
     </nav>
     <br>
     <div class="row columna-izq">
-    <div class="col-12 col-lg-8">
+    <div class="col-12 col-lg-8 offset-lg-1">
       <br>
       <div class="row entrada-blog clearfix">
         <div class="row">
@@ -115,14 +115,21 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4">
-        <div class="menu-search">
-                      <div class="form-trigger"><i class="icon_search"></i></div>
-                      <form action="#">
-                          <input type="text" name="search" id="menu-search" placeholder="Search here..">
-                      </form>
-        </div>
+      <div class="col-12 col-lg-2 offset-lg-1">
+        <div class="search-container justify-content-center d-none d-sm-none d-md-block">
+   <form action="#">
+     <input type="text" placeholder="Buscar.." name="search">
+     <button type="submit"><i class="fa fa-search"></i></button>
+   </form>
       </div>
+      <br>
+      <div class="list-group justify-content-center d-none d-sm-none d-md-block">
+  <a href="#" class="list-group-item list-group-item-action">Rock</a>
+  <a href="#" class="list-group-item list-group-item-action">Pop</a>
+  <a href="#" class="list-group-item list-group-item-action">Jazz</a>
+  <a href="#" class="list-group-item list-group-item-action">Blues</a>
+  <a href="#" class="list-group-item list-group-item-action">Techno</a>
+</div>
       </div>
   </body>
 </html>

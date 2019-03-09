@@ -37,4 +37,11 @@ background-color: rgba(247, 67, 0, 0.95);
 }
 .columna-izq {
   padding-left: 50px;
+  padding-bottom: 50px;
+}
+.search-container {
+  padding-top: 30px;
+}
+.list-group{
+  margin-right: 30px;
 }
