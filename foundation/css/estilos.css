@@ -40,3 +40,6 @@ body { margin: 30px; }
   border-radius: 6px;
   box-shadow: 0 0 3px #ccc, 0 5px 7px #4ae256 inset;
 }
+.galeria {
+  grid-gap:10px;
+}
