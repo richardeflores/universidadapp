@@ -1,3 +1,6 @@
+.cabecera {
+  background-color: #10803F;
+}
 body { margin: 30px; }
 .search {
   position: relative;
@@ -8,11 +11,11 @@ body { margin: 30px; }
 .search input {
   width: 250px;
   height: 32px;
-
   background: #fcfcfc;
   border: 1px solid #aaa;
   border-radius: 5px;
   box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  margin-top: 10px;
 }
 
 .search input { text-indent: 32px;}
