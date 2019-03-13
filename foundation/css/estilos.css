@@ -24,3 +24,19 @@ body { margin: 30px; }
   top: 5px;
   left: 5px;
 }
+.menu-item {
+  background-color: #333333;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 3px #ccc, 0 5px 7px #4ae256 inset;
+}
+.menu-link{
+  color: white;
+
+}
+.menu.vertical>li>a:hover{
+  background-color: #777;
+  color: green;
+  border-radius: 6px;
+  box-shadow: 0 0 3px #ccc, 0 5px 7px #4ae256 inset;
+}
