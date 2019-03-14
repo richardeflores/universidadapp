@@ -9,7 +9,7 @@ body { margin: 30px; }
 }
 
 .search input {
-  width: 250px;
+  width: 230px;
   height: 32px;
   background: #fcfcfc;
   border: 1px solid #aaa;
@@ -36,10 +36,52 @@ body { margin: 30px; }
 }
 .menu.vertical>li>a:hover{
   background-color: #777;
-  color: green;
+  color: white;
   border-radius: 6px;
   box-shadow: 0 0 3px #ccc, 0 5px 7px #4ae256 inset;
 }
 .galeria {
   grid-gap:10px;
+  margin-top: 10px;
+}
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #10803F;
+  color: white;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;}
+
+.historial-link{
+  color:black;
+}
+.historial-link:hover {
+  color: white;
+}
+.columna-derecha {
+  padding-left: 25px;
 }
