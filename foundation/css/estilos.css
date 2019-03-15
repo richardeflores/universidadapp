@@ -86,5 +86,13 @@ body { margin: 30px; }
   padding-left: 25px;
 }
 .icon {
-  width: 50px; 
+  width: 50px;
+}
+.blog-img {
+max-width: 500px;
+width: 500px;
+}
+
+.foto-cuadrilla {
+  max-height: 129px;
 }
