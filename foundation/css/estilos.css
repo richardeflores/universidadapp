@@ -84,6 +84,7 @@ body { margin: 30px; }
 }
 .columna-derecha {
   padding-left: 25px;
+  padding-right: 40px;
 }
 .icon {
   width: 50px;
@@ -95,4 +96,13 @@ width: 500px;
 
 .foto-cuadrilla {
   max-height: 129px;
+}
+.columna-izquierda{
+  padding: 10px;
+}
+.post {
+  border-bottom: 1px solid #8F8F91;
+  margin: 15px;
+  padding: 15px;
+  background-color: rgba(255,255,255, 0.7);
 }
