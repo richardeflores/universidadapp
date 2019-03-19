@@ -82,10 +82,7 @@ body { margin: 30px; }
 .historial-link:hover {
   color: white;
 }
-.columna-derecha {
-  padding-left: 25px;
-  padding-right: 40px;
-}
+
 .icon {
   width: 50px;
 }
