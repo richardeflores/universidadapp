@@ -1,6 +1,23 @@
 .logotipo {
-  width: 150px;
+  width: 100px;
+  border-radius: 15px;
+  border:2px solid #fff;
 }
 nav {
   background-color: #1A237E;
+}
+.cabecera {
+  background-color: #1A237E;
+}
+nav.nav-extended .nav-wrapper {
+  height: 100px;
+  padding:20px;
+  padding-top: 80px;
+  margin-top: 20px;
+}
+.slogan{
+  padding-top: 60px
+}
+nav .sidenav-trigger i {
+  line-height: 120px;
 }
