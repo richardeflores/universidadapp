@@ -21,3 +21,11 @@ nav.nav-extended .nav-wrapper {
 nav .sidenav-trigger i {
   line-height: 120px;
 }
+.fondo {
+  background-image: url(img/fondo.jpg)
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cuerpo {
+  padding-top: 80px;
+}
