@@ -2,6 +2,7 @@
   width: 100px;
   border-radius: 15px;
   border:2px solid #fff;
+  margin-top: 20px;
 }
 nav {
   background-color: #1A237E;
@@ -16,7 +17,7 @@ nav.nav-extended .nav-wrapper {
   margin-top: 20px;
 }
 .slogan{
-  padding-top: 60px
+  padding-top: 80px
 }
 nav .sidenav-trigger i {
   line-height: 120px;
@@ -27,5 +28,16 @@ nav .sidenav-trigger i {
   background-repeat: no-repeat;
 }
 .cuerpo {
-  padding-top: 80px;
+  padding-top: 100px;
+}
+.rs {
+  max-width: 67px;
+  margin: 15px;
+}
+.imag-lat {
+  max-width: 550px;
+}
+.row .col {
+  padding: 0px;
+  padding-right: 20px;
 }
