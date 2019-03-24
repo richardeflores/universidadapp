@@ -39,5 +39,22 @@ nav .sidenav-trigger i {
 }
 .row .col {
   padding: 0px;
-  padding-right: 20px;
+  padding-right: 0px;
+}
+.s12.l8.col.card.post {
+  margin:30px;
+}
+.img-post {
+  max-width: 500px;
+}
+.s12.l8.col.card.post {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.titulo-post {
+  margin: 0px;
+}
+.row .col.s12 .offset-l1 .carta
+{
+  margin: 20px;
 }
