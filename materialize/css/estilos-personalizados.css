@@ -35,7 +35,7 @@ nav .sidenav-trigger i {
   margin: 15px;
 }
 .imag-lat {
-  max-width: 530px;
+  max-width: 510px;
 }
 .row .col {
   padding: 0px;
@@ -211,4 +211,20 @@ button:focus{
 }
 .info-input:invalid{
   border-bottom:1px solid red;
+}
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: 1px solid #1A237E;
+  background-color: #fff;
+  height: 5rem;
+  color: #fff;}
+
+  .input-field .prefix, .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label {
+    color: #1A237E;
+  }
+
+.blue-grey {
+  background-color: #2bbbad !important;
 }
