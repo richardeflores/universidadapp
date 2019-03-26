@@ -35,7 +35,7 @@ nav .sidenav-trigger i {
   margin: 15px;
 }
 .imag-lat {
-  max-width: 550px;
+  max-width: 530px;
 }
 .row .col {
   padding: 0px;
@@ -102,25 +102,8 @@ button:focus{
   margin-top:15px;
 }
 
-.fab{
-  background-color:#EA4335;
-  font-weight:300;
-  color:white;
-  font-size:18px;
-  border-radius:50%;
-  height:50px;
-  width:50px;
-  border:none;
-  box-shadow:0px 1px 2px rgba(0,0,0,0.5);
-  transform:translateY(-25px);
-}
-
-.fab:hover,.fab:focus{
-  box-shadow:0px 4px 8px rgba(0,0,0,0.5);
-}
-
 .content{
-  padding:10px 20px;
+  padding:30px 20px;
   width:80%;
   transform:translateY(-25px);
 }
@@ -228,64 +211,4 @@ button:focus{
 }
 .info-input:invalid{
   border-bottom:1px solid red;
-}
-
-#social-media{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  padding-top:20px;
-}
-
-#social-media-links{
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  align-items:center; justify-content:center;
-  width:100%;
-  height:100%;
-  margin-top:5px;
-}
-
-.social-media-btn{
-  border-radius:50%;
-  height:40px;  width:40px;
-  font-size:20px;
-  color:white;
-  border:none;
-  background-color:#383838;
-  text-shadow:0px 2px 4px rgba(0,0,0,0.3);
-}
-
-.social-media-btn:hover{
-  animation: pulse 1.25s cubic-bezier(0.66, 0, 0, 1)
-}
-.social-media-btn:focus{
-  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1)
-}
-
-
-
-#facebook{
-  background-color:#3C5A99;
-  box-shadow:0 0 0 0 #3C5A99;
-}
-
-#instagram{
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  margin-left:10px;
-  box-shadow:0 0 0 0 #d6249f;
-
-}
-
-#twitter{
-  background-color:#20B8FF;
-  margin-left:10px;
-  box-shadow:0 0 0 0 #20B8FF;
-}
-
-@keyframes pulse {
-  to {
-    box-shadow: 0 0 0 10px transparent;
-  }
 }
